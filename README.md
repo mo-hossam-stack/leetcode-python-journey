@@ -13,6 +13,8 @@ Inside each file, you’ll find:
 - 🔗 LeetCode link
 - 📊 Difficulty level
 - 💡 My solution (with comments if needed)
+- 🛠️ Developer Tools:
+You can use `.leetcode-tools/smart_commit.sh` to automatically commit and push new solutions.
 
 Example:
 
