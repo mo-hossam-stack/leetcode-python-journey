@@ -1,6 +1,6 @@
 # 🧠 LeetCode Python Journey
 
-Welcome to my problem-solving journey on [LeetCode](https://leetcode.com/)!  
+Welcome to my problem-solving journey on [LeetCode](https://leetcode.com/u/MOHAMEDHOSSAM2112/)! 
 In this repository, I solve problems using **Python**, focusing on mastering algorithms, data structures, and interview patterns.
 
 ---
