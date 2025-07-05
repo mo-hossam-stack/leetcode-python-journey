@@ -8,7 +8,7 @@ In this repository, I solve problems using **Python**, focusing on mastering alg
 ## 📌 Structure
 
 Each problem is saved in a `.py` file, named exactly like the problem title on LeetCode.  
-Inside each file, you’ll find:
+Inside each file, you'll find:
 - ✅ Problem name
 - 🔗 LeetCode link
 - 📊 Difficulty level
@@ -25,3 +25,49 @@ LeetCode: https://leetcode.com/problems/two-sum/
 Difficulty: Easy
 """
 # Solution goes here...
+
+```
+
+---
+
+## 🚀 Progress
+
+- Problems solved: **20+**
+- Categories:
+  - [x] Arrays
+  - [x] Hashing
+  - [x] Sliding Window
+  - [x] Two Pointers
+  - [x] Fundamentals
+
+---
+
+## 🛠️ How to Use
+
+Browse the folders by topic. Each file contains the problem statement, link, and my solution.  
+Feel free to use these as study material or reference for your own practice!
+
+---
+
+## 🤝 Contributing
+
+Want to add your own solutions or improvements?  
+1. Fork the repo
+2. Add your solution in the correct folder
+3. Open a pull request!
+
+---
+
+## 📚 Patterns Covered
+
+- Two Pointers
+- Sliding Window
+- Hashing
+- Array Manipulation
+- String Processing
+
+---
+
+## 📝 License
+
+This project is open-source and free to use for learning purposes.
