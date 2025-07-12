@@ -65,6 +65,7 @@ Want to add your own solutions or improvements?
 - Hashing
 - Array Manipulation
 - String Processing
+- binary search
 
 ---
 
