@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Enter folder name (e.g., arrays,fundamentals,two_pointers,hashing,sliding_window):"
+echo "Enter folder name (e.g., arrays,fundamentals,two_pointers,hashing,sliding_window,bit_manipulation):"
 read folder
 
 files=$(git status --porcelain | grep -E "^\?\?|^ M" | awk '{print $2}' | grep "^$folder/.*\.py$")
