@@ -1,4 +1,4 @@
-# Problem: Single Number.
+# Problem: Single Number. 
 # LeetCode: https://leetcode.com/problems/single-number/
 # Difficulty: Easy
 
