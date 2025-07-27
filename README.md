@@ -39,6 +39,10 @@ Difficulty: Easy
   - [x] Sliding Window
   - [x] Two Pointers
   - [x] Fundamentals
+  - [x] dp
+  - [x] binary_search
+  - [x] bit_manipulation
+  - [x] linked_list
 
 ---
 
