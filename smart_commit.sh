@@ -16,7 +16,7 @@ echo "$files"
 for file in $files; do
   filename=$(basename "$file" .py)
   git add "$file"
-  git commit -m "feat($folder): add solution for '$filename'"
+  git commit -m "feat(fundamentals): add solution for '2239_Find_Closest_Number_to_Zero.py'"
 done
 
 echo "🔄 Pulling latest changes with rebase..."
