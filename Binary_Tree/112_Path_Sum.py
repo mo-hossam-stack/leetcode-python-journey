@@ -1,6 +1,6 @@
 # Problem: 112. Path Sum
 # LeetCode: https://leetcode.com/problems/path-sum/
-# Difficulty: Easy
+# Difficulty: Easy 
 
 # Definition for a binary tree node.
 # class TreeNode:
