@@ -1,6 +1,6 @@
 # Problem: 543. Diameter of Binary Tree
 # LeetCode: https://leetcode.com/problems/diameter-of-binary-tree/
-# Difficulty: Easy
+# Difficulty: Easy 
 
 # Definition for a binary tree node.
 # class TreeNode:
