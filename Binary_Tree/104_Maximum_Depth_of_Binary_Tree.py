@@ -1,6 +1,6 @@
 # Problem: Maximum Depth of Binary Tree
 # LeetCode: https://leetcode.com/problems/maximum-depth-of-binary-tree/
-# Difficulty: Easy
+# Difficulty: Easy 
 
 # Definition for a binary tree node.
 # class TreeNode:
