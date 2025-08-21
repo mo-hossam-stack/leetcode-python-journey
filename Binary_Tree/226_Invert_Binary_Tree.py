@@ -1,6 +1,6 @@
 # Problem: Invert Binary Tree
 # LeetCode: https://leetcode.com/problems/invert-binary-tree/
-# Difficulty: Easy
+# Difficulty: Easy 
 
 # Definition for a binary tree node.
 # class TreeNode:
