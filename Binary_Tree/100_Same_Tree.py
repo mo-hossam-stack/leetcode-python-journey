@@ -1,6 +1,6 @@
 # Problem: Same Tree
 # LeetCode: https://leetcode.com/problems/same-tree/
-# Difficulty: Easy
+# Difficulty: Easy 
 
 # Definition for a binary tree node.
 # class TreeNode:
