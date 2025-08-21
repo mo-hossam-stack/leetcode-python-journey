@@ -32,7 +32,7 @@ Difficulty: Easy
 
 ## 🚀 Progress
 
-- Problems solved: **54**
+- Problems solved: **64**
 - Categories:
   - [x] Arrays
   - [x] Hashing
