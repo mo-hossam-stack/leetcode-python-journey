@@ -1,6 +1,6 @@
 # Problem: 236. Lowest Common Ancestor of a Binary Tree
 # LeetCode: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-# Difficulty: Medium
+# Difficulty: Medium 
 
 # Definition for a binary tree node.
 # class TreeNode:
