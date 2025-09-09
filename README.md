@@ -35,6 +35,7 @@ Difficulty: Easy
 - Problems solved: **70**
 - Categories:
   - [x] Arrays
+  - [x] Binary_Tree
   - [x] Hashing
   - [x] Sliding Window
   - [x] Two Pointers
