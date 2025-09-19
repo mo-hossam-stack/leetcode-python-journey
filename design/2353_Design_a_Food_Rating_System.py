@@ -2,6 +2,7 @@
 # LeetCode: https://leetcode.com/problems/design-a-food-rating-system/
 # Difficulty: Medium
 
+
 class FoodRatings:
     def __init__(self, foods: List[str], cuisines: List[str], ratings: List[int]):
         self.food_cuisine = defaultdict(str)
