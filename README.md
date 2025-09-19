@@ -44,6 +44,7 @@ Difficulty: Easy
   - [x] binary_search
   - [x] bit_manipulation
   - [x] linked_list
+  - [x] design
 
 ---
 
