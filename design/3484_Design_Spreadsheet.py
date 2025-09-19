@@ -2,6 +2,7 @@
 # LeetCode: https://leetcode.com/problems/design-spreadsheet/
 # Difficulty: Medium
 
+
 from collections import defaultdict
 
 class Spreadsheet:
