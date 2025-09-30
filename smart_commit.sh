@@ -1,9 +1,7 @@
-#!/bin/bash
 
 echo "Enter folder name (e.g., arrays,fundamentals,two_pointers,hashing,sliding_window,bit_manipulation,linked_list,dp):"
 read folder
 
-# ⬅️ نجيب الملفات المعدلة أو الجديدة داخل الفولدر المختار
 files=$(git status --porcelain | awk '{print $2}' | grep "^$folder/.*\.py$")
 
 if [ -z "$files" ]; then
@@ -14,14 +12,12 @@ fi
 echo "📝 Files to commit:"
 echo "$files"
 
-# ⬅️ نعمل commit لكل ملف Python في الفولدر
 for file in $files; do
   filename=$(basename "$file" .py)
   git add "$file"
   git commit -m "feat($folder): add solution for '${filename}.py'"
 done
 
-# ⬅️ نتحقق لو فيه تغييرات تانية (خارج الفولدر)
 extra_changes=$(git status --porcelain | awk '{print $2}' | grep -v "^$folder/.*\.py$")
 
 stash_needed=false
@@ -47,7 +43,6 @@ else
   echo "❌ Pull failed. Please resolve conflicts and run the script again."
 fi
 
-# ⬅️ نرجع الـ stash لو اتعمل
 if [ "$stash_needed" = true ]; then
   echo "📦 Restoring your skipped changes..."
   git stash pop
