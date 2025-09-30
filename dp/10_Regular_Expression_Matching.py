@@ -8,7 +8,7 @@ class Solution:
         dp = [[False] *(n +1) for _ in range(m + 1)]
         dp[m][n] =True
         
-        for i in range(m,-1,-1):
+        for i in range(m, -1,-1):
             for j in range(n - 1,-1,-1):
                 first_match = i<m and (s[i]== p[j] or p[j]==".")
                 
