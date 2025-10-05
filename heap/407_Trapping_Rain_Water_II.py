@@ -14,7 +14,7 @@ class Solution:
                     border.add((i, j))
                     heappush(heap, (A[i][j], i, j))
         
-        dirs = [(0, 1), (1, 0), (-1, 0), (0, -1)]
+        dirs = [(0, 1), (1,0), (-1, 0), (0, -1)]
 
         def isInBounds(i, j):
             return 0 <= i < m and 0 <= j < n
