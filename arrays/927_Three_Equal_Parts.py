@@ -1,6 +1,6 @@
 # Problem: Three Equal Parts  
 # LeetCode: https://leetcode.com/problems/three-equal-parts/  
-# Difficulty: Hard  
+# Difficulty: Hard 
 
 class Solution:
     def threeEqualParts(self, arr: List[int]) -> List[int]:
