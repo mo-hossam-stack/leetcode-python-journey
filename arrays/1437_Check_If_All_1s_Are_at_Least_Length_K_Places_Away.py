@@ -10,5 +10,5 @@ class Solution:
             if nums[i] == 1:
                 if prev != -1 and i - prev - 1 < k:
                     return False
-                prev = i
+                prev = i 
         return True
