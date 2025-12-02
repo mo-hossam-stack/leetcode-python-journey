@@ -1,7 +1,7 @@
 # Problem: Average of Levels in Binary Tree
 # LeetCode: https://leetcode.com/problems/average-of-levels-in-binary-tree/
 # Difficulty: Easy 
-
+ 
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -23,3 +23,4 @@ class Solution:
                 if node.right: queue.append(node.right)
             res.append(sum(level) / len(level))
         return res
+
