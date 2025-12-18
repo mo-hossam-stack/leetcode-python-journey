@@ -1,7 +1,6 @@
-Problem: Count Elements With at Least K Greater Values
-LeetCode: https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/
-
-Difficulty: Medium
+#Problem: Count Elements With at Least K Greater Values
+#LeetCode: https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/description/
+#Difficulty: Medium
 
 class Solution:
     def countElements(self, nums: List[int], k: int) -> int:
