@@ -4,6 +4,7 @@ Welcome to my problem-solving journey on [LeetCode](https://leetcode.com/u/MOHAM
 In this repository, I solve problems using **Python**, focusing on mastering algorithms, data structures, and interview patterns.
 
 ---
+![Leetcode Stats](https://leetcard.jacoblin.cool/MOHAMEDHOSSAM2112?theme=dark&font=source_code_pro&radius=10)
 
 ## 📌 Structure
 
