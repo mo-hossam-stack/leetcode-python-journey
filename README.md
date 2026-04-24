@@ -33,7 +33,7 @@ Difficulty: Easy
 
 ## 🚀 Progress
 
-- Problems solved: **+370** 
+- Problems solved: **+380** 
 - Categories:
   - [x] Arrays
   - [x] Binary_Tree
