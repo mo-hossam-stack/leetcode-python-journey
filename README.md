@@ -46,6 +46,7 @@ Difficulty: Easy
   - [x] bit_manipulation
   - [x] linked_list
   - [x] design
+  - [x] heap
 
 ---
 
