@@ -1,0 +1,13 @@
+# Problem: 1358. Number of Substrings Containing All Three Characters
+# LeetCode: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+# Difficulty: Medium
+
+class Solution:
+    def numberOfSubstrings(self, s: str) -> int:
+        res, p = 0, [5e4, -1, -1, -1]
+
+        for i, ch in enumerate(s):
+            p[ord(ch) & 31] = i
+            res += min(p) + 1
+
+        return res
