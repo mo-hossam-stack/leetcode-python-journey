@@ -2,10 +2,10 @@ echo "Enter folder name (e.g., arrays,fundamentals,two_pointers,hashing,sliding_
 read folder
 
 # Add -u to show files inside completely untracked directories
-files=$(git status --porcelain -u | awk '{print $2}' | grep -E "^$folder/.*\.(py|sql)$")
+files=$(git status --porcelain -u | awk '{print $2}' | grep -E "^$folder/.*\.(py|sql|sh)$")
 
 if [ -z "$files" ]; then
-  echo "No new or modified .py or .sql files found in $folder/"
+  echo "No new or modified .py, .sql, or .sh files found in $folder/"
   exit 0
 fi
 
@@ -20,7 +20,7 @@ for file in $files; do
 done
 
 # Also add -u here for the extra changes check
-extra_changes=$(git status --porcelain -u | awk '{print $2}' | grep -vE "^$folder/.*\.(py|sql)$")
+extra_changes=$(git status --porcelain -u | awk '{print $2}' | grep -vE "^$folder/.*\.(py|sql|sh)$")
 
 stash_needed=false
 if [ -n "$extra_changes" ]; then
