@@ -16,7 +16,7 @@ for file in $files; do
   git add "$file"
 
   if [ "$folder" = "daily_challenges" ]; then
-    today=$(date "+%B %d, %Y")
+    today=$(LC_ALL=C date "+%B %d, %Y")
     git commit -m "feat($folder): $today"
   else
     filename=$(basename "$file")
