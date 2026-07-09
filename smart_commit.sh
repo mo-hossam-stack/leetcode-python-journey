@@ -13,10 +13,15 @@ echo "Files to commit:"
 echo "$files"
 
 for file in $files; do
-  # Extract filename with its extension directly
-  filename=$(basename "$file")
   git add "$file"
-  git commit -m "feat($folder): add solution for '${filename}'"
+
+  if [ "$folder" = "daily_challenges" ]; then
+    today=$(date "+%B %d, %Y")
+    git commit -m "feat($folder): $today"
+  else
+    filename=$(basename "$file")
+    git commit -m "feat($folder): add solution for '${filename}'"
+  fi
 done
 
 # Also add -u here for the extra changes check
