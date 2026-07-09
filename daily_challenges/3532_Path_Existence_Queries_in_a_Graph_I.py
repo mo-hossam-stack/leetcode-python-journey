@@ -11,3 +11,4 @@ class Solution:
             comp[i] = cid
             prev = curr
         return [comp[x] == comp[y] for x, y in queries]
+
