@@ -1,0 +1,30 @@
+# Problem: 828. Count Unique Characters of All Substrings of a Given String
+# LeetCode: https://leetcode.com/problems/count-unique-characters-of-all-substring-of-a-given-string/
+# Difficulty: Hard
+
+class Solution:
+    def uniqueLetterString(self, s: str) -> int:
+        n = len(s)
+        
+        left = [0] * n
+        right = [0] * n
+        prev = [-1] * 26
+
+        for i in range(n):
+            idx = ord(s[i]) - ord('A')
+            left[i] = prev[idx]
+            prev[idx] = i
+
+        prev = [n] * 26
+
+        for i in range(n - 1, -1, -1):
+            idx = ord(s[i]) - ord('A')
+            right[i] = prev[idx]
+            prev[idx] = i
+
+        ans = 0
+
+        for i in range(n):
+            ans += (i - left[i]) * (right[i] - i)
+
+        return ans
