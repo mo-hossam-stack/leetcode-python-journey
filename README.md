@@ -33,7 +33,7 @@ Difficulty: Easy
 
 ##  Progress
 
-- Problems solved: **+700**
+- Problems solved: **+720**
  
 ```
 ##  How to Use
